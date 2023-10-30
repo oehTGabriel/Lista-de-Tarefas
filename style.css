@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+header{
+    background-color: rgb(4, 0, 255);
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    border-bottom: solid rgb(0, 6, 95) 16px;
+    color: white;
+}
+
+header h1{
+    margin-right: 40px;
+}
+
+header button{
+    background-color: rgb(6, 180, 0);
+    border: none;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+form {
+    text-align: center;
+    padding: 24px;
+    background-color: beige;
+    border-bottom: solid rgb(145, 145, 127) 12px;
+    display: none;
+}
+
+form button{
+    margin-left: 16px;
+    padding: 5px;
+    background-color: rgb(6, 180, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#botao-cancelar{
+    background-color: red;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li{
+    background-color: rgb(75, 62, 255);
+    width: 25%;
+    border-radius: 5px;
+    border: solid 2px white;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    list-style: none;
+    padding-top: 8px;
+    text-transform: uppercase;
+}
