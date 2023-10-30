@@ -63,4 +63,5 @@ ul li{
     list-style: none;
     padding-top: 8px;
     text-transform: uppercase;
+    overflow: hidden;
 }
