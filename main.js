@@ -22,8 +22,9 @@ $(document).ready(function() {
 
     $('ol').on ('click', 'li' ,function(){
         
-        $(this).toggleClass('marcado');
+        $('ol li').not(this).removeClass('marcado');
 
+        $(this).toggleClass('marcado');
     });
 
         
