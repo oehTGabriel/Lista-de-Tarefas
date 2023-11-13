@@ -22,7 +22,6 @@ $(document).ready(function() {
 
     $('ol').on ('click', 'li' ,function(){
         
-        $('ol li').not(this).removeClass('marcado');
 
         $(this).toggleClass('marcado');
     });
