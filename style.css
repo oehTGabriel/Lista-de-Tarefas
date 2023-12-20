@@ -47,20 +47,27 @@ form button{
     background-color: red;
 }
 
-ul {
+ol {
     display: flex;
     flex-wrap: wrap;
 }
 
-ul li{
+ol li{
     background-color: rgb(75, 62, 255);
     width: 25%;
     border-radius: 5px;
     border: solid 2px white;
-    height: 50px;
+    min-height: 30px;
     text-align: center;
     margin-top: 10px;
     list-style: none;
     padding-top: 8px;
     text-transform: uppercase;
+    overflow-wrap: break-word;
+    cursor: pointer;
+}
+
+li.marcado{
+    text-decoration: line-through;
+    
 }

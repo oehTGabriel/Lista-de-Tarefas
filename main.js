@@ -15,6 +15,16 @@ $(document).ready(function() {
 
         $(`<h2>${novaTarefa}</h2>`).appendTo(novoItem);
 
-        $(novoItem).appendTo('ul');
-    })
-})
+        $(novoItem).appendTo('ol');
+
+        $('#tarefa').val('');
+    });
+
+    $('ol').on ('click', 'li' ,function(){
+        
+
+        $(this).toggleClass('marcado');
+    });
+
+        
+});
